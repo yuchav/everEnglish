@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>随时英语</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .everenglish-mod * {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
+    .everenglish-mod {
+        border: 1px solid #fff;
+        background-color: rgba(0, 0, 0, 0.8);
+        position: absolute;
+        border-radius: 5px;
+        padding: 3px;
+        font-size: 11px;
+        line-height: 1.2;
+        color: #fff;
+        min-width: 80px;
+        box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+        transform: translateX(-50%);
+    }
+
+    .everenglish-mod::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 8px solid rgba(0, 0, 0, 0.8);
+        bottom: -8px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .everenglish-head {
+        font-size: 13px;
+    }
+
+    .everenglish-body {
+        border-top: 1px dashed #fff;
+        padding-top: 2px;
+        margin-top: 2px;
+    }
+
+    .everenglish-control {
+        color: red;
+        float: right;
+        margin-left: 3px;
+        margin-top: 1px;
+        padding-left: 3px;
+        height: 12px;
+    }
+
+    .everenglish-control>li {
+        width: 12px;
+        height: 12px;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        line-height: 12px;
+    }
+
+    .everenglish-control>li:hover {
+        color: #fff;
+    }
+
+    .everenglish-mod li.everenglish-replace {
+        display: none;
+    }
+
+    .everenglish-translation {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    </style>
+</head>
+
+<body>
+    <p>影片《第五元素》The Fifth Element 是1997年哥伦比亚影片公司出品的一部科幻电影，由吕克·贝松执导，布鲁斯·威利斯、加里·奥德曼、伊安·霍姆和米拉·乔沃维奇等联袂出演。影片于1997年5月7日在美国上映。</p>
+    <p>
+        电影故事发生在2259年的未来纽约，一股宇宙之中的邪恶力量想统治地球，人类面临万劫不复的黑暗世界。外星善良势力预见到这一天的来临，并一直关注着事态的发展，但他们派来地球拯救人类和宇宙的“第五元素”却被恶势力击落。人类复原了“第五元素”，并派出现为纽约出租车司机的前特工柯本协助，最终将恶势力摧毁拯救了人类
+    </p>
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.js"></script>
+    <script src="index.js"></script>
+    <!--div class="everenglish-mod" id="everenglishMod_1" style="">
+    <div class="everenglish-head">
+        <ul class="everenglish-control"><li class="everenglish-add" title="add the word">+</li><li class="everenglish-detail" title="detail">详</li><li class="everenglish-replace" title="replace the word">换</li><li class="everenglish-hold" title="hold">钉</li>
+        </ul>
+        <div class="everenglish-translation">
+            你好~你好你好你好你好
+        </div>
+    </div>
+    <div class="everenglish-body" style="display:none;">
+        <ul>
+            <li>你好</li>
+            <li>你好吗</li>
+            <li>码你好</li>
+        </ul>
+    </div>
+
+
+</div-->
+</body>
+
+</html>
